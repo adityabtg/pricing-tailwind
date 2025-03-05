@@ -1,11 +1,12 @@
 import Card from "../Card/Card"
 import FooterCard from "../Card/FooterCard"
+import Image from "next/image"
 export default function Footer() {
     return (<>
         <footer className=" mt-15 border-t-2 border-gray-500 p-4">
-         <div className="pt-10 flex justify-between">
+         <div className="pt-10 flex flex-col sm:flex-row justify-between">
          <div >
-                <img src="/bootstrap-solid.svg" alt='Bootstrap LOGO' className="max-h-5 max-w -5 " />
+                <Image src="/bootstrap-solid.svg" alt='Bootstrap LOGO' className="max-h-5 max-w -5 " />
                 <small>© 2017-2018</small>
             </div>
             <div> <FooterCard title='Features' info={["Cool stuff",

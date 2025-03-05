@@ -2,7 +2,7 @@ import Card from "../Card/Card"
 
 export default function Info() {
     return (
-        <div className="flex  container gap-8 w-full justify-around ">
+        <div className="flex flex-col sm:flex-row gap-8 w-full justify-around mt-2 ">
             <Card className='' title='Free' price='0' description={["10 users included",
                 "2 GB of storage",
                 "Email support",

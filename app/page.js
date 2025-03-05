@@ -6,7 +6,7 @@ import Info from "./component/Info/Info";
 export default function Home() {
   return (
     <> <Header />
-      <div className="mx-60 ">
+      <div className="lg:mx-60 mx-4 ">
         <Hero />
         <Info />
         <Footer />

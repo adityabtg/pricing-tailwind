@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 export default function Card({ title, price, description, text, csstype }) {
     console.log(csstype)
     return (
-        <div className="border-1 rounded-lg pb-6 w-full  text-center overflow-hidden">
+        <div className="border-1 rounded-lg pb-6 w-full  text-center overflow-hidden mt-2">
             <div className=" border-b border-gray-500 h-20 w-full flex items-center justify-center bg-gray-100">
                 <h3 className="font-extralight text-2xl">{title}</h3>
             </div>
